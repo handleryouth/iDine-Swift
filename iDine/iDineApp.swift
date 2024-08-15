@@ -10,6 +10,10 @@ import SwiftData
 
 @main
 struct iDineApp: App {
+    /*
+     The @StateObject property wrapper is responsible for keeping the object alive throughout the life of our app.
+     */
+    @StateObject var order = Order()
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,8 +29,8 @@ struct iDineApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView().environmentObject(order)
         }
-        .modelContainer(sharedModelContainer)
+//        .modelContainer(sharedModelContainer)
     }
 }

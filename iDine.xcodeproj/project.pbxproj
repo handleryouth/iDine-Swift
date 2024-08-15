@@ -15,6 +15,15 @@
 		EAD98C002C6DE72400D302D4 /* iDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98BFF2C6DE72400D302D4 /* iDineTests.swift */; };
 		EAD98C0A2C6DE72400D302D4 /* iDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C092C6DE72400D302D4 /* iDineUITests.swift */; };
 		EAD98C0C2C6DE72400D302D4 /* iDineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C0B2C6DE72400D302D4 /* iDineUITestsLaunchTests.swift */; };
+		EAD98C1E2C6DEAB200D302D4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C1A2C6DEAB100D302D4 /* Order.swift */; };
+		EAD98C202C6DEAB200D302D4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C1C2C6DEAB100D302D4 /* Helper.swift */; };
+		EAD98C212C6DEAB200D302D4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C1D2C6DEAB200D302D4 /* Menu.swift */; };
+		EAD98C232C6DED1000D302D4 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C222C6DED1000D302D4 /* ItemRow.swift */; };
+		EAD98C252C6DF20F00D302D4 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C242C6DF20F00D302D4 /* ItemDetail.swift */; };
+		EAD98C272C6DFAA200D302D4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C262C6DFAA200D302D4 /* OrderView.swift */; };
+		EAD98C292C6DFC0100D302D4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C282C6DFC0100D302D4 /* MainView.swift */; };
+		EAD98C2B2C6DFCD600D302D4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD98C2A2C6DFCD600D302D4 /* CheckoutView.swift */; };
+		EAD98C2D2C6E03DD00D302D4 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = EAD98C2C2C6E03DD00D302D4 /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		EAD98C052C6DE72400D302D4 /* iDineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD98C092C6DE72400D302D4 /* iDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITests.swift; sourceTree = "<group>"; };
 		EAD98C0B2C6DE72400D302D4 /* iDineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAD98C1A2C6DEAB100D302D4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../../../Users/tony/Downloads/idine/Order.swift; sourceTree = "<group>"; };
+		EAD98C1C2C6DEAB100D302D4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../../../../Users/tony/Downloads/idine/Helper.swift; sourceTree = "<group>"; };
+		EAD98C1D2C6DEAB200D302D4 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../../Users/tony/Downloads/idine/Menu.swift; sourceTree = "<group>"; };
+		EAD98C222C6DED1000D302D4 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		EAD98C242C6DF20F00D302D4 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		EAD98C262C6DFAA200D302D4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		EAD98C282C6DFC0100D302D4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EAD98C2A2C6DFCD600D302D4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		EAD98C2C2C6E03DD00D302D4 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../../Users/tony/.Trash/menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,17 @@
 		EAD98BEA2C6DE72200D302D4 /* iDine */ = {
 			isa = PBXGroup;
 			children = (
+				EAD98C1C2C6DEAB100D302D4 /* Helper.swift */,
+				EAD98C2C2C6E03DD00D302D4 /* menu.json */,
+				EAD98C1D2C6DEAB200D302D4 /* Menu.swift */,
+				EAD98C1A2C6DEAB100D302D4 /* Order.swift */,
 				EAD98BEB2C6DE72200D302D4 /* iDineApp.swift */,
+				EAD98C2A2C6DFCD600D302D4 /* CheckoutView.swift */,
 				EAD98BED2C6DE72200D302D4 /* ContentView.swift */,
+				EAD98C282C6DFC0100D302D4 /* MainView.swift */,
+				EAD98C242C6DF20F00D302D4 /* ItemDetail.swift */,
+				EAD98C262C6DFAA200D302D4 /* OrderView.swift */,
+				EAD98C222C6DED1000D302D4 /* ItemRow.swift */,
 				EAD98BEF2C6DE72200D302D4 /* Item.swift */,
 				EAD98BF12C6DE72400D302D4 /* Assets.xcassets */,
 				EAD98BF32C6DE72400D302D4 /* iDine.entitlements */,
@@ -236,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD98C2D2C6E03DD00D302D4 /* menu.json in Resources */,
 				EAD98BF62C6DE72400D302D4 /* Preview Assets.xcassets in Resources */,
 				EAD98BF22C6DE72400D302D4 /* Assets.xcassets in Resources */,
 			);
@@ -262,8 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD98C212C6DEAB200D302D4 /* Menu.swift in Sources */,
+				EAD98C2B2C6DFCD600D302D4 /* CheckoutView.swift in Sources */,
 				EAD98BEE2C6DE72200D302D4 /* ContentView.swift in Sources */,
 				EAD98BF02C6DE72200D302D4 /* Item.swift in Sources */,
+				EAD98C292C6DFC0100D302D4 /* MainView.swift in Sources */,
+				EAD98C232C6DED1000D302D4 /* ItemRow.swift in Sources */,
+				EAD98C202C6DEAB200D302D4 /* Helper.swift in Sources */,
+				EAD98C252C6DF20F00D302D4 /* ItemDetail.swift in Sources */,
+				EAD98C272C6DFAA200D302D4 /* OrderView.swift in Sources */,
+				EAD98C1E2C6DEAB200D302D4 /* Order.swift in Sources */,
 				EAD98BEC2C6DE72200D302D4 /* iDineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
